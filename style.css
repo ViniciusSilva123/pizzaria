@@ -1,0 +1,422 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----------------------*/
+
+#top-pag {
+  background-color: #c5a572;
+  color: white;
+  margin: 0px;
+  height: 55px;
+  font-size: 14px;
+}
+
+#top-pag1 {
+  max-width: 1150px;
+  margin: auto;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+#top-pag section {
+  display: flex;
+}
+
+#num {
+  width: 50%;
+  justify-content: center;
+  padding: 15px;
+}
+
+#num a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#rede {
+  width: 50%;
+  text-align: right;
+  justify-content: center;
+  padding: 15px;
+}
+
+#rede a {
+  color: white;
+  text-decoration: none;
+}
+
+#rede i {
+  padding: 2px 10px;
+}
+
+/*-------------------------*/
+
+#nave {
+  text-align: center;
+  max-width: 1140px;
+  margin: auto;
+  padding: 15px;
+}
+
+#fimg {
+  background-image: url(imagens/ISR00282-scaled.jpg);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 770px;
+}
+
+.imgescuro {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.507); /* cor preta com 50% de opacidade */
+  z-index: 1;
+}
+
+#textuni {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#textuni a {
+  color: white;
+  text-decoration: none;
+  background-color: #840d23;
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: 4px solid #c5a572;
+  font-weight: bold;
+  margin: 10px;
+  transition-duration: 1s;
+}
+
+#textuni a:hover {
+  background-color: #c5a572;
+  border: 4px solid white;
+}
+
+#fundo {
+  height: 150px;
+  box-shadow: 1px 4px 7px 0px rgba(0, 0, 0, 0.199);
+  position: relative;
+  z-index: 2;
+}
+
+#logo img {
+  width: 130px;
+  height: auto;
+  padding: 15px 40px;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition-duration: 1s;
+}
+
+#menu a:hover {
+  color: red;
+}
+
+.fas.fa-chevron-down {
+  font-size: 12px;
+}
+
+/*------------DIV 3------------*/
+
+#imgpiz {
+  text-align: center;
+  background-image: linear-gradient(20deg, #8c2530 0%, #df253d 100%);
+  height: 480px;
+  width: 98%;
+  margin: auto;
+  padding: 10px;
+}
+
+/*-----------DIV 4-------------*/
+
+#sabores {
+  text-align: center;
+}
+
+#sabores i {
+  background-color: #840d23;
+  transition-duration: 0.5s;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#sabores i:hover {
+  color: gray;
+}
+
+#imgsabor img {
+  width: 100px;
+}
+
+#cardapio {
+  padding: 50px;
+  padding-top: 100px;
+}
+
+.ifont {
+  font-family: "Great Vibes", Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 65px;
+  padding-top: 15px;
+}
+
+.text {
+  color: gray;
+  font-size: 18px;
+}
+
+#imgsabor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgsa {
+  width: 370px;
+  height: 500px;
+  overflow: hidden;
+  padding: 3px;
+  padding-bottom: 10px;
+}
+
+#imgsabor img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+  padding-bottom: 10px;
+}
+
+#divinscreva {
+  padding: 30px;
+  padding-bottom: 120px;
+}
+
+#inscreva {
+  color: white;
+  background-color: #840d23;
+  padding: 12px 27px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+#ncasas {
+  background-color: #f7f5f2;
+}
+
+#imgncasas {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  height: auto;
+  margin: auto;
+}
+
+#imgncasas img {
+  width: 550px;
+  border-radius: 50px;
+  margin: 10px;
+  box-shadow: 1px 1px 13px 0px rgba(0, 0, 0, 0.589);
+  margin-bottom: 40px;
+}
+
+.conteudonc {
+  max-width: 550px;
+  text-align: left;
+  padding: 10px;
+}
+
+#sabores h1 {
+  color: #363636;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.conteudonc p {
+  color: #7a7a7a;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 30px;
+}
+
+#destaquecar {
+  display: flex;
+  width: 1100px;
+  margin: auto;
+}
+
+#destaquecar img {
+  width: 390px;
+  height: 240px;
+  border-radius: 50px;
+  margin: 0px 10px;
+  box-shadow: 1px 1px 13px 0px rgba(0, 0, 0, 0.589);
+  margin-bottom: 40px;
+}
+
+#destaquecar p {
+  color: #7a7a7a;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+
+#destaquecar a {
+  color: white;
+  background-color: #840d23;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+#conteudodes {
+  text-align: left;
+}
+
+#reserva {
+  height: 600px;
+  background-image: url(imagens/Background-Mesa.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#reserconteu {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+}
+
+#reserconteu div {
+  padding: 20px;
+  margin: 10px;
+}
+
+#reserconteu div a {
+  background-color: #830d23;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+
+#reserfont {
+  font-family: "Great Vibes", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.div-escura {
+  position: relative;
+  display: block; /* ou block, dependendo do seu layout */
+  overflow: hidden; /* Garante que a sobreposição não ultrapasse a div */
+}
+
+.div-escura::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45); /* Cor preta com 50% de opacidade */
+  pointer-events: none; /* Garante que o pseudo-elemento não interfira com os cliques */
+}
+
+/* Estilos para o conteúdo dentro da div */
+.div-escura p {
+  color: white; /* Cor do texto */
+  position: relative; /* Garante que o texto fique acima da sobreposição escura */
+  z-index: 1; /* Garante que o texto fique acima da sobreposição escura */
+}
+
+#delivery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#delivery a {
+  color: white;
+  background-color: #830d23;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#deli1 {
+  text-align: center;
+}
+
+#deli1 div {
+  padding: 10px;
+}
+
+#ende {
+  display: flex;
+}
+
+.house {
+  color: #830d23;
+  font-size: 40px;
+}
+
+.endere {
+  color: black;
+  padding: 10px;
+}
+
+.cs {
+  font-weight: bold;
+  font-size: 17px;
+}
